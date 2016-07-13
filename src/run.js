@@ -1,4 +1,3 @@
-// optionsで保存したlocalStorageにアクセス
 chrome.extension.sendRequest({
   "action": "getOptions",
   "args": []
@@ -19,5 +18,3 @@ chrome.extension.sendRequest({
     }
   }
 });
-
-
